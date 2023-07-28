@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
-        pkgs.rustup
+        pkgs.rustup,
+        pkgs.python311
     ];
 }
